@@ -21,11 +21,11 @@ function Header({ userType }) {
               <Link to={`/${userType}`} className="hover:text-gray-300">
                 Home
               </Link>
-              <Link to={`/${userType}-profile`} className="hover:text-gray-300">
+              <Link to={`/${userType}/profile`} className="hover:text-gray-300">
                 Profile
               </Link>
               <Link
-                to={`/${userType}-appointments`}
+                to={`/${userType}/appointments`}
                 className="hover:text-gray-300"
               >
                 Appointments
@@ -36,17 +36,17 @@ function Header({ userType }) {
               >
                 Lab Reports
               </Link>
-              <Link to={`/${userType}-billing`} className="hover:text-gray-300">
+              <Link to={`/${userType}/billing`} className="hover:text-gray-300">
                 Billing
               </Link>
               <Link
-                to={`/${userType}-treatmentanddiagnosis`}
+                to={`/${userType}/treatmentanddiagnosis`}
                 className="hover:text-gray-300"
               >
                 Treatment & Diagnosis
               </Link>
               <Link
-                to={`/${userType}-settings`}
+                to={`/${userType}/settings`}
                 className="hover:text-gray-300"
               >
                 Settings
@@ -72,16 +72,16 @@ function Header({ userType }) {
             {/* Navigation Links */}
             <nav className="flex gap-6">
               <Link
-                to={`/${userType}-dashboard`}
+                to={`/${userType}/dashboard`}
                 className="hover:text-gray-300"
               >
                 Home
               </Link>
-              <Link to={`/${userType}-profile`} className="hover:text-gray-300">
+              <Link to={`/${userType}/profile`} className="hover:text-gray-300">
                 Profile
               </Link>
               <Link
-                to={`/${userType}-appointments`}
+                to={`/${userType}/appointments`}
                 className="hover:text-gray-300"
               >
                 Appointments
